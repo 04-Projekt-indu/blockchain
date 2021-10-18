@@ -18,6 +18,21 @@ class Block {
 
         }
 
+        static genesis(){ // 1. block der chain
+            return new this("Genesis time","-----","xABc1234",["data1","data2"]); // call constructor
+        }
+
+        static mineBlock(lastBlock,ownData){ // weitere Blocks in der chain
+            
+            const timestamp = Date.now(); // Zeit im ms seit 01.01.1970 | UNIX
+            const lastHash = lastBlock.hash; // HASH-Wert des Vorgängers
+            const hash = "Hash to do";
+
+            return new this (timestamp,lastHash,hash,ownData);
+
+        }
+
+
 }
 
 module.exports = Block; // Export als Module
