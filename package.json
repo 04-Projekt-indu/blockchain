@@ -4,19 +4,20 @@
   "description": "Block / Blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-test": "nodemon dev-test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/04-projekt-chain/blockchain.git"
+    "url": "git+https://github.com/04-Projekt-indu/blockchain.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/04-projekt-chain/blockchain/issues"
+    "url": "https://github.com/04-Projekt-indu/blockchain/issues"
   },
-  "homepage": "https://github.com/04-projekt-chain/blockchain#readme",
+  "homepage": "https://github.com/04-Projekt-indu/blockchain#readme",
   "devDependencies": {
     "nodemon": "^2.0.13"
   }
