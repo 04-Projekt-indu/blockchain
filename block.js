@@ -8,6 +8,16 @@ class Block {
             this.data = data;
         }
 
+        toString() {
+            return ` Block -
+                Timestamp: ${this.timestamp}
+                Last Hash: ${this.lastHash}
+                Hash: ${this.hash}
+                data: ${this.data}
+            `
 
+        }
 
 }
+
+module.exports = Block; // Export als Module
