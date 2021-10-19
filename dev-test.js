@@ -13,8 +13,6 @@ const Blockchain = require("./blockchain");
 //console.log(testBlock.toString());
 
 const chain = new Blockchain();
-console.log(chain);
 chain.addblock("daten von block1");
-console.log(chain);
 chain.addblock("daten von block2");
 console.log(chain);
